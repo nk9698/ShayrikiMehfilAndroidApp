@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Dil ki bat Shayri ke sath</string>
+    <string name="tab_text_1">Gujarati</string>
+    <string name="tab_text_2">Hindi</string>
+    <string name="tab_text_3">English</string>
+    <string name="empty_show">Your Data Connection is off. \n 1. Turn On Internet\n 2. Restart App</string>
+</resources>

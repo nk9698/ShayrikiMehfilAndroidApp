@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This layout defines how a single card or view of the list(RecyclerView) should look -->
+
+<!-- CardView helps design a mini layout in the form of cards -->
+<!-- Cards provide an easy way to contain a group of views while providing a consistent style for the container -->
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/tools"
+    card_view:cardCornerRadius="10dp"
+    android:layout_margin="5dp"
+    android:id="@+id/cardview">
+
+    <RelativeLayout
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/joke_id_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/joke_title_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/joke_id_txt"
+            android:layout_marginTop="2.5sp"
+            android:layout_marginHorizontal="20dp"
+            android:text="Title 1"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            />
+
+
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
